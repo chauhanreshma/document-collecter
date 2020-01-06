@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title> Title </title>
+</head>
+
+<body>
+
+	<script>
+		main();
+
+		function main() {
+			name = prompt("Enter your Name");
+			Gander = prompt("Enter the Gender");
+			Age = prompt("Enter your Age");
+			alert("Name:  " + name + "\nGender:  " + Gander + "\n Age:  " + Age);
+			getresult();
+		}
+
+
+
+
+		function getresult() {
+			if (Age >= 50) {
+
+				alert("Document needed for above 50 \n -Brith certificate");
+
+			} else if (Age <= 50) {
+
+				alert("Document needed for below 50   \n-Adharcard \n -votingcard \n -Pancard");
+			}
+		}
+
+	</script>
+
+
+</body>
+
+</html>
